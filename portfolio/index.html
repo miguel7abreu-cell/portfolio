@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Abreu | Lead Business Analyst & BI Specialist</title>
+    <meta name="description" content="Senior Lead BA & BI Specialist enfocado en optimización de procesos y toma de decisiones basada en datos.">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">M.ABREU</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#cases">Case Studies</a></li>
+                    <li><a href="#toolkit">Toolkit</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact" class="btn-primary">Contactar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <div class="hero-content">
+                <span class="badge">Lead Business Analyst & BI</span>
+                <h1>Transformo datos complejos en <span class="accent">decisiones estratégicas</span>.</h1>
+                <p class="subtitle">Especialista en cerrar la brecha entre stakeholders de negocio y equipos de ingeniería mediante BI robusto y análisis de procesos de alto impacto.</p>
+                
+                <div class="hero-stats">
+                    <div class="stat"><strong>+15%</strong><span>Eficiencia Operativa</span></div>
+                    <div class="stat"><strong>$2M+</strong><span>Budget Optimizado</span></div>
+                    <div class="stat"><strong>100+</strong><span>Stakeholders Alineados</span></div>
+                </div>
+
+                <div class="hero-btns">
+                    <a href="#cases" class="btn-main">Ver Proyectos</a>
+                    <a href="{CV_PDF}" class="btn-secondary" target="_blank">Descargar CV</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="cases" class="cases container">
+            <div class="section-header">
+                <h2>Proyectos Seleccionados</h2>
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ba">Business Analysis</button>
+                    <button class="filter-btn" data-filter="bi">Business Intelligence</button>
+                </div>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card" data-category="ba" onclick="openDrawer('case-1')">
+                    <div class="card-img" style="background-color: #f0f0f0;"></div>
+                    <div class="card-info">
+                        <span class="tag">Strategy / BA</span>
+                        <h3>Optimización de Customer Journey B2B</h3>
+                        <p>Rediseño de flujos operativos reduciendo el churn de onboarding en un 22%.</p>
+                        <div class="card-footer">
+                            <span>KPI Definition</span> • <span>Stakeholder Mgmt</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="bi" onclick="openDrawer('case-2')">
+                    <div class="card-img" style="background-color: #e0e0e0;"></div>
+                    <div class="card-info">
+                        <span class="tag">Analytics / BI</span>
+                        <h3>Dashboard de Rentabilidad End-to-End</h3>
+                        <p>Centralización de 5 fuentes de datos (SQL/ERP) para visibilidad financiera en tiempo real.</p>
+                        <div class="card-footer">
+                            <span>Star Schema</span> • <span>Power BI</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="toolkit" class="toolkit container">
+            <h2>Lead BA/BI Toolkit</h2>
+            <div class="toolkit-grid">
+                <div class="tool-item">
+                    <h4>Discovery Framework</h4>
+                    <p>Plantilla de entrevistas a stakeholders y levantamiento de requerimientos funcionales.</p>
+                </div>
+                <div class="tool-item">
+                    <h4>KPI Tree Template</h4>
+                    <p>Estructura lógica para desglosar objetivos de negocio en métricas accionables.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience container">
+            <h2>Experiencia Profesional</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="time">2022 - Presente</div>
+                    <div class="exp-content">
+                        <h3>Senior Business Analyst Lead</h3>
+                        <p class="company">Fintech Solutions (Confidencial)</p>
+                        <ul>
+                            <li>Liderazgo de equipo de 4 analistas en la migración de sistemas legacy.</li>
+                            <li>Definición de roadmap basado en análisis de rentabilidad por producto.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="project-drawer" class="drawer">
+        <div class="drawer-content">
+            <button class="close-btn" onclick="closeDrawer()">&times;</button>
+            <div id="drawer-body">
+                </div>
+        </div>
+    </div>
+
+    <footer id="contact" class="container">
+        <div class="contact-box">
+            <h2>¿Listo para escalar el impacto de tus datos?</h2>
+            <p>Disponible para roles Senior/Lead que busquen combinar visión de negocio y ejecución técnica.</p>
+            <div class="contact-links">
+                <a href="mailto:{EMAIL}">Email</a>
+                <a href="{LINKEDIN}">LinkedIn</a>
+                <a href="{GITHUB}">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
