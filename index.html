@@ -1,138 +1,570 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Miguel Abreu | Lead Business Analyst & BI Specialist</title>
-    <meta name="description" content="Senior Lead BA & BI Specialist enfocado en optimización de procesos y toma de decisiones basada en datos.">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{NOMBRE} — Senior Lead Business Analyst &amp; BI</title>
+  <meta name="description" content="{NOMBRE} · Senior/Lead Business Analyst y BI Analytics. Traduzco negocio en datos, procesos y entregables que generan impacto medible.">
+  <meta name="keywords" content="Business Analyst, BI Analytics, Lead BA, Data Analytics, KPI, Power BI, SQL, Product Analytics, Portfolio">
+  <meta name="author" content="{NOMBRE}">
+  <link rel="canonical" href="https://{GITHUB}.github.io/portfolio/">
+  <meta property="og:type"        content="website">
+  <meta property="og:title"       content="{NOMBRE} — Senior Lead BA + BI">
+  <meta property="og:description" content="Portfolio de Business Analysis y BI Analytics. Casos de estudio, stack técnico y propuesta de valor en 60 segundos.">
+  <meta property="og:url"         content="https://{GITHUB}.github.io/portfolio/">
+  <meta property="og:image"       content="assets/img/og-cover.png">
+  <meta property="og:locale"      content="es_ES">
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="{NOMBRE} — Senior Lead BA + BI">
+  <meta name="twitter:description" content="Portfolio de Business Analysis y BI Analytics.">
+  <meta name="twitter:image"       content="assets/img/og-cover.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{NOMBRE}",
+    "jobTitle": "Senior/Lead Business Analyst & BI",
+    "url": "https://{GITHUB}.github.io/portfolio/",
+    "email": "mailto:{EMAIL}",
+    "sameAs": [
+      "https://linkedin.com/in/{LINKEDIN}",
+      "https://github.com/{GITHUB}"
+    ]
+  }
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 
-    <header class="navbar">
-        <div class="container">
-            <a href="#" class="logo">M.ABREU</a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#cases">Case Studies</a></li>
-                    <li><a href="#toolkit">Toolkit</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#contact" class="btn-primary">Contactar</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<div class="cursor-dot"  aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
 
-    <main>
-        <section class="hero container">
-            <div class="hero-content">
-                <span class="badge">Lead Business Analyst & BI</span>
-                <h1>Transformo datos complejos en <span class="accent">decisiones estratégicas</span>.</h1>
-                <p class="subtitle">Especialista en cerrar la brecha entre stakeholders de negocio y equipos de ingeniería mediante BI robusto y análisis de procesos de alto impacto.</p>
-                
-                <div class="hero-stats">
-                    <div class="stat"><strong>+15%</strong><span>Eficiencia Operativa</span></div>
-                    <div class="stat"><strong>$2M+</strong><span>Budget Optimizado</span></div>
-                    <div class="stat"><strong>100+</strong><span>Stakeholders Alineados</span></div>
-                </div>
-
-                <div class="hero-btns">
-                    <a href="#cases" class="btn-main">Ver Proyectos</a>
-                    <a href="{CV_PDF}" class="btn-secondary" target="_blank">Descargar CV</a>
-                </div>
-            </div>
-        </section>
-
-        <section id="cases" class="cases container">
-            <div class="section-header">
-                <h2>Proyectos Seleccionados</h2>
-                <div class="filters">
-                    <button class="filter-btn active" data-filter="all">All</button>
-                    <button class="filter-btn" data-filter="ba">Business Analysis</button>
-                    <button class="filter-btn" data-filter="bi">Business Intelligence</button>
-                </div>
-            </div>
-
-            <div class="projects-grid">
-                <article class="project-card" data-category="ba" onclick="openDrawer('case-1')">
-                    <div class="card-img" style="background-color: #f0f0f0;"></div>
-                    <div class="card-info">
-                        <span class="tag">Strategy / BA</span>
-                        <h3>Optimización de Customer Journey B2B</h3>
-                        <p>Rediseño de flujos operativos reduciendo el churn de onboarding en un 22%.</p>
-                        <div class="card-footer">
-                            <span>KPI Definition</span> • <span>Stakeholder Mgmt</span>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="project-card" data-category="bi" onclick="openDrawer('case-2')">
-                    <div class="card-img" style="background-color: #e0e0e0;"></div>
-                    <div class="card-info">
-                        <span class="tag">Analytics / BI</span>
-                        <h3>Dashboard de Rentabilidad End-to-End</h3>
-                        <p>Centralización de 5 fuentes de datos (SQL/ERP) para visibilidad financiera en tiempo real.</p>
-                        <div class="card-footer">
-                            <span>Star Schema</span> • <span>Power BI</span>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <section id="toolkit" class="toolkit container">
-            <h2>Lead BA/BI Toolkit</h2>
-            <div class="toolkit-grid">
-                <div class="tool-item">
-                    <h4>Discovery Framework</h4>
-                    <p>Plantilla de entrevistas a stakeholders y levantamiento de requerimientos funcionales.</p>
-                </div>
-                <div class="tool-item">
-                    <h4>KPI Tree Template</h4>
-                    <p>Estructura lógica para desglosar objetivos de negocio en métricas accionables.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="experience" class="experience container">
-            <h2>Experiencia Profesional</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="time">2022 - Presente</div>
-                    <div class="exp-content">
-                        <h3>Senior Business Analyst Lead</h3>
-                        <p class="company">Fintech Solutions (Confidencial)</p>
-                        <ul>
-                            <li>Liderazgo de equipo de 4 analistas en la migración de sistemas legacy.</li>
-                            <li>Definición de roadmap basado en análisis de rentabilidad por producto.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <div id="project-drawer" class="drawer">
-        <div class="drawer-content">
-            <button class="close-btn" onclick="closeDrawer()">&times;</button>
-            <div id="drawer-body">
-                </div>
-        </div>
+<!-- ── NAVBAR ── -->
+<nav id="navbar" role="navigation" aria-label="Navegación principal">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">{NOM}<span>.</span></a>
+    <ul class="nav-links" role="list">
+      <li><a href="#case-studies">Case Studies</a></li>
+      <li><a href="#bi-projects">BI Projects</a></li>
+      <li><a href="#toolkit">Toolkit</a></li>
+      <li><a href="#experience">Experiencia</a></li>
+      <li><a href="#clients">Clientes</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+    <div class="nav-ctas">
+      <a href="{CV_PDF}" class="btn-ghost" download>↓ CV</a>
+      <a href="#contact" class="btn-primary">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="M4 4l8 8 8-8"/></svg>
+        Contactar
+      </a>
     </div>
+    <button class="nav-hamburger" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
 
-    <footer id="contact" class="container">
-        <div class="contact-box">
-            <h2>¿Listo para escalar el impacto de tus datos?</h2>
-            <p>Disponible para roles Senior/Lead que busquen combinar visión de negocio y ejecución técnica.</p>
-            <div class="contact-links">
-                <a href="mailto:{EMAIL}">Email</a>
-                <a href="{LINKEDIN}">LinkedIn</a>
-                <a href="{GITHUB}">GitHub</a>
-            </div>
+<div class="mobile-nav" role="dialog" aria-label="Menú móvil">
+  <a href="#case-studies">Case Studies</a>
+  <a href="#bi-projects">BI Projects</a>
+  <a href="#toolkit">Toolkit</a>
+  <a href="#experience">Experiencia</a>
+  <a href="#clients">Clientes</a>
+  <a href="#contact">Contacto</a>
+  <div class="mobile-ctas">
+    <a href="{CV_PDF}" class="btn-ghost" download>↓ Descargar CV</a>
+    <a href="#contact" class="btn-primary">Contactar</a>
+  </div>
+</div>
+
+<!-- ── HERO ── -->
+<section id="hero" aria-labelledby="hero-title">
+  <div class="hero-bg-grid" aria-hidden="true"></div>
+  <div class="hero-blob"    aria-hidden="true"></div>
+  <div class="hero-inner">
+    <div class="hero-tag anim">
+      Open to opportunities · Senior / Lead BA &amp; BI
+    </div>
+    <h1 id="hero-title" class="hero-headline anim anim-delay-1">
+      Donde negocio<br>y datos <span class="accent">convergen.</span>
+      <span class="line-muted">Where business meets data — Senior/Lead BA + BI</span>
+    </h1>
+    <p class="hero-sub anim anim-delay-2">
+      Traduzco ambigüedad de negocio en <strong>requerimientos accionables</strong>,
+      modelos de datos robustos y dashboards que generan decisiones — no solo reportes.
+      <strong>+7 años</strong> entregando en entornos ágiles, financieros y de producto.
+    </p>
+    <div class="hero-ctas anim anim-delay-3">
+      <a href="#case-studies" class="btn-hero btn-hero-primary">
+        Ver Case Studies
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a href="#contact" class="btn-hero btn-hero-secondary">Hablemos →</a>
+    </div>
+    <div class="hero-proof anim anim-delay-4">
+      <div class="proof-item">
+        <div class="proof-icon">📊</div>
+        <div class="proof-text"><strong>+40%</strong><span>reducción media en ciclos de aprobación</span></div>
+      </div>
+      <div class="proof-item">
+        <div class="proof-icon">🎯</div>
+        <div class="proof-text"><strong>15+ proyectos</strong><span>end-to-end como BA Lead o BI Lead</span></div>
+      </div>
+      <div class="proof-item">
+        <div class="proof-icon">🔗</div>
+        <div class="proof-text"><strong>3 industrias</strong><span>Fintech · Retail · SaaS / Producto</span></div>
+      </div>
+      <div class="proof-item">
+        <div class="proof-icon">⚡</div>
+        <div class="proof-text"><strong>Full-stack BA</strong><span>Discovery · Modelado · Entrega</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CASE STUDIES ── -->
+<section id="case-studies" aria-labelledby="cs-title">
+  <div class="container">
+    <div class="cs-header">
+      <div>
+        <div class="section-label anim">Case Studies</div>
+        <h2 id="cs-title" class="section-title anim anim-delay-1">Proyectos que entrego,<br>problemas que resuelvo.</h2>
+        <p class="section-sub anim anim-delay-2">Casos sintéticos equivalentes a proyectos reales. Datos anonimizados por NDA.</p>
+      </div>
+      <div class="filter-bar anim anim-delay-3" role="group" aria-label="Filtrar proyectos">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="ba">Business Analysis</button>
+        <button class="filter-btn" data-filter="bi">BI / Analytics</button>
+        <button class="filter-btn" data-filter="hybrid">Hybrid</button>
+      </div>
+    </div>
+    <div class="cs-grid">
+      <article class="cs-card anim" data-type="ba" data-modal="cs-1" aria-label="Abrir case study BA">
+        <div class="cs-card-type">Business Analysis</div>
+        <h3 class="cs-card-title">Rediseño del proceso de originación de créditos B2B</h3>
+        <p class="cs-card-problem">Ciclos de aprobación de 14+ días bloqueaban el 35% del pipeline comercial en una fintech multiregional.</p>
+        <div class="cs-card-tags">
+          <span class="tag">Proceso BPMN</span>
+          <span class="tag">BRD · 42 user stories</span>
+          <span class="tag">Stakeholders C-level</span>
+          <span class="tag">Fintech</span>
         </div>
-    </footer>
+        <div class="cs-card-arrow" aria-hidden="true">↗</div>
+      </article>
+      <article class="cs-card anim anim-delay-1" data-type="bi" data-modal="cs-2" aria-label="Abrir case study BI">
+        <div class="cs-card-type">BI / Analytics</div>
+        <h3 class="cs-card-title">Arquitectura de datos y dashboard ejecutivo de ventas</h3>
+        <p class="cs-card-problem">Retail con 5 canales y reportes manuales en Excel: 3 días de consolidación con 6 semanas de retraso.</p>
+        <div class="cs-card-tags">
+          <span class="tag">Modelo estrella</span>
+          <span class="tag">dbt · Snowflake · Power BI</span>
+          <span class="tag">Data Quality</span>
+          <span class="tag">Retail</span>
+        </div>
+        <div class="cs-card-arrow" aria-hidden="true">↗</div>
+      </article>
+      <article class="cs-card anim anim-delay-2" data-type="hybrid" data-modal="cs-3" aria-label="Abrir case study Hybrid">
+        <div class="cs-card-type">Hybrid BA + BI</div>
+        <h3 class="cs-card-title">OKR framework + métricas de producto para app de pagos</h3>
+        <p class="cs-card-problem">Startup fintech Serie A sin métricas de producto formalizadas ni alineación entre squads sobre qué es "éxito".</p>
+        <div class="cs-card-tags">
+          <span class="tag">KPI Tree</span>
+          <span class="tag">OKRs · Product Analytics</span>
+          <span class="tag">Amplitude · Metabase</span>
+          <span class="tag">SaaS</span>
+        </div>
+        <div class="cs-card-arrow" aria-hidden="true">↗</div>
+      </article>
+    </div>
+  </div>
+</section>
 
-    <script src="assets/js/main.js"></script>
+<!-- ── BI PROJECTS ── -->
+<section id="bi-projects" aria-labelledby="bi-title">
+  <div class="container">
+    <div class="section-label anim">BI Projects</div>
+    <h2 id="bi-title" class="section-title anim anim-delay-1">End-to-end con<br>datos públicos.</h2>
+    <p class="section-sub anim anim-delay-2">Proyectos técnicos reproducibles con datasets abiertos. Stack real, código en GitHub.</p>
+    <div class="bi-grid">
+      <article class="bi-card anim anim-delay-1">
+        <div class="bi-card-preview" aria-hidden="true">
+          🏦
+          <div class="chart-decoration">
+            <div class="bar" style="height:55%"></div><div class="bar" style="height:80%"></div>
+            <div class="bar" style="height:45%"></div><div class="bar" style="height:90%"></div>
+            <div class="bar" style="height:65%"></div><div class="bar" style="height:75%"></div>
+          </div>
+        </div>
+        <div class="bi-card-body">
+          <h3 class="bi-card-title">Análisis de morosidad en cartera de créditos (BIS)</h3>
+          <p class="bi-card-desc">Pipeline ELT completo: ingesta, modelo estrella, KPIs de riesgo y dashboard interactivo para portafolios financieros.</p>
+          <div class="bi-stack">
+            <span class="stack-tag">SQL</span><span class="stack-tag">dbt</span>
+            <span class="stack-tag">Power BI</span><span class="stack-tag">Python</span><span class="stack-tag">Snowflake</span>
+          </div>
+          <div class="bi-links">
+            <a href="https://github.com/{GITHUB}" class="bi-link" target="_blank" rel="noopener">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.72-4.04-1.61-4.04-1.61-.54-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.08 1.83 1.23 1.83 1.23 1.07 1.83 2.8 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              Ver en GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+      <article class="bi-card anim anim-delay-2">
+        <div class="bi-card-preview" aria-hidden="true">
+          🛒
+          <div class="chart-decoration">
+            <div class="bar" style="height:40%"></div><div class="bar" style="height:70%"></div>
+            <div class="bar" style="height:55%"></div><div class="bar" style="height:85%"></div>
+            <div class="bar" style="height:60%"></div><div class="bar" style="height:95%"></div>
+          </div>
+        </div>
+        <div class="bi-card-body">
+          <h3 class="bi-card-title">Segmentación RFM y análisis de cohortes (e-commerce)</h3>
+          <p class="bi-card-desc">Segmentación de clientes con Python + SQL, visualización de retención por cohorte y estrategias de re-engagement.</p>
+          <div class="bi-stack">
+            <span class="stack-tag">Python</span><span class="stack-tag">pandas</span>
+            <span class="stack-tag">SQL</span><span class="stack-tag">Tableau Public</span>
+          </div>
+          <div class="bi-links">
+            <a href="https://github.com/{GITHUB}" class="bi-link" target="_blank" rel="noopener">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.72-4.04-1.61-4.04-1.61-.54-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.08 1.83 1.23 1.83 1.23 1.07 1.83 2.8 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              Ver en GitHub
+            </a>
+            <a href="#" class="bi-link" target="_blank" rel="noopener">Ver dashboard →</a>
+          </div>
+        </div>
+      </article>
+      <article class="bi-card anim anim-delay-3">
+        <div class="bi-card-preview" aria-hidden="true">
+          📈
+          <div class="chart-decoration">
+            <div class="bar" style="height:60%"></div><div class="bar" style="height:45%"></div>
+            <div class="bar" style="height:75%"></div><div class="bar" style="height:50%"></div>
+            <div class="bar" style="height:88%"></div><div class="bar" style="height:70%"></div>
+          </div>
+        </div>
+        <div class="bi-card-body">
+          <h3 class="bi-card-title">KPI tree + modelo de datos para SaaS metrics</h3>
+          <p class="bi-card-desc">Árbol de KPIs SaaS (MRR, Churn, LTV, CAC) con modelo estrella, diccionario de datos y Power BI report.</p>
+          <div class="bi-stack">
+            <span class="stack-tag">SQL</span><span class="stack-tag">Power BI</span>
+            <span class="stack-tag">dbt</span><span class="stack-tag">Excel</span>
+          </div>
+          <div class="bi-links">
+            <a href="https://github.com/{GITHUB}" class="bi-link" target="_blank" rel="noopener">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.72-4.04-1.61-4.04-1.61-.54-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.08 1.83 1.23 1.83 1.23 1.07 1.83 2.8 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              Ver en GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ── TOOLKIT ── -->
+<section id="toolkit" aria-labelledby="toolkit-title">
+  <div class="container">
+    <div class="section-label anim">Toolkit</div>
+    <h2 id="toolkit-title" class="section-title anim anim-delay-1">Plantillas que uso<br>en cada proyecto.</h2>
+    <p class="section-sub anim anim-delay-2">Templates listos para usar. Descargables (próximamente) o solicitables por email.</p>
+    <div class="toolkit-grid">
+      <div class="toolkit-item anim anim-delay-1" role="link" tabindex="0">
+        <div class="toolkit-icon">🔍</div>
+        <div class="toolkit-info"><strong>Discovery Plan</strong><span>Guía de entrevistas, kick-off y mapeo de stakeholders</span></div>
+        <span class="download-badge">PDF</span>
+      </div>
+      <div class="toolkit-item anim anim-delay-2" role="link" tabindex="0">
+        <div class="toolkit-icon">📄</div>
+        <div class="toolkit-info"><strong>PRD / BRD Lite</strong><span>Template condensado para proyectos ágiles (Confluence-ready)</span></div>
+        <span class="download-badge">Notion</span>
+      </div>
+      <div class="toolkit-item anim anim-delay-3" role="link" tabindex="0">
+        <div class="toolkit-icon">📋</div>
+        <div class="toolkit-info"><strong>User Stories + Acceptance Criteria</strong><span>Con criterios INVEST, ejemplos Given/When/Then y checklist de refinement</span></div>
+        <span class="download-badge">Excel</span>
+      </div>
+      <div class="toolkit-item anim anim-delay-1" role="link" tabindex="0">
+        <div class="toolkit-icon">🌳</div>
+        <div class="toolkit-info"><strong>KPI Tree + Definiciones</strong><span>Árbol de métricas con diccionario de datos, fuentes y responsables</span></div>
+        <span class="download-badge">Miro</span>
+      </div>
+      <div class="toolkit-item anim anim-delay-2" role="link" tabindex="0">
+        <div class="toolkit-icon">⚠️</div>
+        <div class="toolkit-info"><strong>RAID Log / RACI</strong><span>Gestión de riesgos, supuestos, dependencias y responsabilidades</span></div>
+        <span class="download-badge">Excel</span>
+      </div>
+      <div class="toolkit-item anim anim-delay-3" role="link" tabindex="0">
+        <div class="toolkit-icon">⭐</div>
+        <div class="toolkit-info"><strong>Data Model Starter (estrella)</strong><span>Template de modelo estrella con naming conventions y data dictionary</span></div>
+        <span class="download-badge">dbt</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── EXPERIENCE ── -->
+<section id="experience" aria-labelledby="exp-title">
+  <div class="container">
+    <div class="section-label anim">Experiencia</div>
+    <h2 id="exp-title" class="section-title anim anim-delay-1">Trayectoria con<br>impacto demostrable.</h2>
+    <div class="exp-list">
+      <article class="exp-card anim anim-delay-1">
+        <div>
+          <div class="exp-role">Lead Business Analyst</div>
+          <div class="exp-company">{EMPRESA_1} · Fintech / Servicios Financieros</div>
+          <ul class="exp-bullets">
+            <li class="exp-bullet">Lideré el discovery y diseño del proceso de originación de créditos B2B para 4 países, reduciendo el tiempo de ciclo en 60%+ y eliminando 3 pasos redundantes.</li>
+            <li class="exp-bullet">Gestioné un backlog de 80+ historias de usuario coordinando 5 squads de producto y tecnología, manteniendo alineación con C-level mediante workshops de priorización bimensuales.</li>
+            <li class="exp-bullet">Definí el framework de métricas de proceso (KPI tree) adoptado como estándar por el área de operaciones en todas las regiones.</li>
+          </ul>
+        </div>
+        <div class="exp-meta">
+          <span class="exp-period">2021 – Presente</span>
+          <div class="exp-location">Remoto · Latam</div>
+        </div>
+      </article>
+      <article class="exp-card anim anim-delay-2">
+        <div>
+          <div class="exp-role">Senior BI Analyst</div>
+          <div class="exp-company">{EMPRESA_2} · Retail / E-commerce</div>
+          <ul class="exp-bullets">
+            <li class="exp-bullet">Diseñé e implementé la arquitectura de datos de ventas (modelo estrella Snowflake + dbt) unificando 5 canales y eliminando 100% de los reportes manuales en Excel.</li>
+            <li class="exp-bullet">Desarrollé el dashboard ejecutivo en Power BI (actualización cada 4h) consumido por Dirección, Comercial y Operaciones para decisiones de pricing y stock.</li>
+            <li class="exp-bullet">Formalicé el glosario de 15 métricas de negocio, resolviendo discrepancias entre áreas que generaban re-trabajo de 3 días hábiles mensuales.</li>
+          </ul>
+        </div>
+        <div class="exp-meta">
+          <span class="exp-period">2018 – 2021</span>
+          <div class="exp-location">Presencial · Buenos Aires</div>
+        </div>
+      </article>
+      <article class="exp-card anim anim-delay-3">
+        <div>
+          <div class="exp-role">Business Analyst</div>
+          <div class="exp-company">{EMPRESA_3} · SaaS / Producto Digital</div>
+          <ul class="exp-bullets">
+            <li class="exp-bullet">Implementé el framework OKR para 3 squads de producto en una fintech Serie A, logrando que el 100% de los OKRs estuvieran alineados a la North Star Metric al trimestre siguiente.</li>
+            <li class="exp-bullet">Diseñé la taxonomía de 47 eventos de analytics (Amplitude) e integración con Metabase para el equipo de producto.</li>
+          </ul>
+        </div>
+        <div class="exp-meta">
+          <span class="exp-period">2016 – 2018</span>
+          <div class="exp-location">Remoto · Global</div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ── CLIENTS ── -->
+<section id="clients" aria-labelledby="clients-title">
+  <div class="container">
+    <div class="section-label anim">Clientes &amp; Industrias</div>
+    <h2 id="clients-title" class="section-title anim anim-delay-1">Contextos donde<br>he entregado valor.</h2>
+    <div class="clients-grid">
+      <div class="client-logo anim anim-delay-1">Fintech A</div>
+      <div class="client-logo anim anim-delay-2">Retail Corp</div>
+      <div class="client-logo anim anim-delay-3">SaaS Co.</div>
+      <div class="client-logo anim anim-delay-1">Bank B</div>
+      <div class="client-logo anim anim-delay-2">InsurTech</div>
+      <div class="client-logo anim anim-delay-3">E-com X</div>
+      <div class="client-logo anim anim-delay-1">HealthTech</div>
+      <div class="client-logo anim anim-delay-2">Gov Agency</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── AWARDS ── -->
+<section id="awards" aria-labelledby="awards-title">
+  <div class="container">
+    <div class="section-label anim">Reconocimientos</div>
+    <h2 id="awards-title" class="section-title anim anim-delay-1">Logros destacados.</h2>
+    <div class="awards-list">
+      <div class="award-item anim anim-delay-1">
+        <div class="award-icon">🏆</div>
+        <div class="award-info"><strong>Best BA Practice — Internal Award</strong><span>{EMPRESA_1} · 2023</span></div>
+      </div>
+      <div class="award-item anim anim-delay-2">
+        <div class="award-icon">🎖️</div>
+        <div class="award-info"><strong>Speaker — Data Analytics Summit Latam</strong><span>"KPI trees que no mueren en el backlog" · 2022</span></div>
+      </div>
+      <div class="award-item anim anim-delay-3">
+        <div class="award-icon">⭐</div>
+        <div class="award-info"><strong>Top Contributor — Comunidad BA Latam</strong><span>Mentoring &amp; templates · 2021–2024</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── EDUCATION ── -->
+<section id="education" aria-labelledby="edu-title">
+  <div class="container">
+    <div class="section-label anim">Formación</div>
+    <h2 id="edu-title" class="section-title anim anim-delay-1">Formación y<br>Certificaciones.</h2>
+    <div class="edu-grid anim anim-delay-2">
+      <div class="edu-block">
+        <div class="edu-block-header">
+          <span class="edu-icon">🎓</span>
+          <strong>Actual · Relevante</strong>
+        </div>
+        <div class="edu-items">
+          <div>
+            <div class="edu-item-title">Master en Data Analytics &amp; Business Intelligence</div>
+            <div class="edu-item-inst">{UNIVERSIDAD} · En curso</div>
+            <div class="edu-item-year">2023 – Presente</div>
+          </div>
+          <div>
+            <div class="edu-item-title">CBAP — Certified Business Analysis Professional</div>
+            <div class="edu-item-inst">IIBA · International</div>
+            <div class="edu-item-year">2022</div>
+          </div>
+          <div>
+            <div class="edu-item-title">dbt Analytics Engineering Certification</div>
+            <div class="edu-item-inst">dbt Labs</div>
+            <div class="edu-item-year">2023</div>
+          </div>
+          <div>
+            <div class="edu-item-title">Power BI Data Analyst (PL-300)</div>
+            <div class="edu-item-inst">Microsoft Certified</div>
+            <div class="edu-item-year">2021</div>
+          </div>
+        </div>
+      </div>
+      <div class="edu-block">
+        <div class="edu-block-header">
+          <span class="edu-icon">🎨</span>
+          <strong>Background diferencial</strong>
+        </div>
+        <div class="edu-items">
+          <div>
+            <div class="edu-item-title">Licenciatura en Diseño de Comunicación</div>
+            <div class="edu-item-inst">{UNIVERSIDAD_2} · Graduado</div>
+            <div class="edu-item-year">2012 – 2017</div>
+            <div class="edu-item-note">Base en diseño de información y comunicación visual que potencia la claridad de mis dashboards y presentaciones a stakeholders.</div>
+          </div>
+        </div>
+        <div style="padding: 0 1.5rem 1.25rem;">
+          <button class="edu-expand-btn" id="eduExpandBtn" aria-expanded="false">
+            Ver otras certificaciones ↓
+          </button>
+          <div class="edu-collapsible" id="eduCollapsible">
+            <div class="edu-items" style="padding-top:1rem; padding-left:0; padding-right:0;">
+              <div>
+                <div class="edu-item-title">Agile Product Management</div>
+                <div class="edu-item-inst">Product School Online</div>
+                <div class="edu-item-year">2020</div>
+              </div>
+              <div>
+                <div class="edu-item-title">SQL for Data Science</div>
+                <div class="edu-item-inst">Coursera / UC Davis</div>
+                <div class="edu-item-year">2019</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact" aria-labelledby="contact-title">
+  <div class="container">
+    <div class="section-label anim">Contacto</div>
+    <h2 id="contact-title" class="section-title anim anim-delay-1">¿Buscas un Lead BA<br>o BI para tu equipo?</h2>
+    <div class="contact-wrapper">
+      <div class="anim anim-delay-2">
+        <p class="contact-info-title">Hablemos.</p>
+        <p class="contact-info-sub">
+          Estoy abierto a oportunidades de Lead BA, Lead BI o roles híbridos en equipos que valoren la calidad del análisis, la alineación con negocio y la entrega con impacto.
+          Tiempo de respuesta habitual: &lt;24h hábiles.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:{EMAIL}" class="contact-link">
+            <div class="contact-link-icon">✉️</div>{EMAIL}
+          </a>
+          <a href="https://linkedin.com/in/{LINKEDIN}" class="contact-link" target="_blank" rel="noopener">
+            <div class="contact-link-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            </div>
+            linkedin.com/in/{LINKEDIN}
+          </a>
+          <a href="https://github.com/{GITHUB}" class="contact-link" target="_blank" rel="noopener">
+            <div class="contact-link-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.72-4.04-1.61-4.04-1.61-.54-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.08 1.83 1.23 1.83 1.23 1.07 1.83 2.8 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </div>
+            github.com/{GITHUB}
+          </a>
+        </div>
+      </div>
+      <div class="anim anim-delay-3">
+        <form class="contact-form" id="contactForm" novalidate aria-label="Formulario de contacto">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contact-name">Nombre</label>
+              <input type="text" id="contact-name" name="name" placeholder="Tu nombre" required autocomplete="name">
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email</label>
+              <input type="email" id="contact-email" name="email" placeholder="tu@empresa.com" required autocomplete="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="contact-type">Tipo de oportunidad</label>
+            <select id="contact-type" name="type">
+              <option value="">Selecciona una opción</option>
+              <option value="lead-ba">Lead BA</option>
+              <option value="lead-bi">Lead BI</option>
+              <option value="hybrid">Rol híbrido BA + BI</option>
+              <option value="freelance">Proyecto freelance</option>
+              <option value="other">Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="contact-message">Mensaje</label>
+            <textarea id="contact-message" name="message" placeholder="Cuéntame sobre el rol o proyecto..." required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">
+            Enviar mensaje
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </form>
+        <div class="form-success" id="formSuccess" role="alert">
+          ✅ ¡Mensaje enviado! Te respondo en menos de 24h hábiles.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">{NOM}<span>.</span></div>
+    <p class="footer-copy">© 2025 {NOMBRE} · Senior Lead BA &amp; BI</p>
+    <div class="footer-links">
+      <a href="mailto:{EMAIL}">Email</a>
+      <a href="https://linkedin.com/in/{LINKEDIN}" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/{GITHUB}" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ── MODAL / DRAWER ── -->
+<div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-drawer" id="modalDrawer">
+    <div class="modal-handle" aria-hidden="true"></div>
+    <div class="modal-header">
+      <div class="modal-type"  id="modalType"></div>
+      <h2 class="modal-title" id="modalTitle"></h2>
+      <button class="modal-close" id="modalClose" aria-label="Cerrar">✕</button>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>
